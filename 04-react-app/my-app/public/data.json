@@ -1,0 +1,30 @@
+{
+    "customers": [],
+    "orders" : [],
+    "products": [
+        {
+          "id": "1",
+          "name": "Accent Chair",
+          "price": 25999,
+          "image": "images/accent_chair.jpg"
+          
+        },
+        {
+          "id": "2",
+          "name": "Albany Sectional",
+          "price": 109999,
+          "image": "images/albany_sectional.jpg"
+        },
+        {
+          "id": "3",
+          "name": "Albany Table",
+          "price": 309999,
+          "image": "images/albany_table.jpg"
+        },
+        {
+          "id": "4",
+          "name": "Armchair",
+          "price": 12599,
+          "image": "images/armchair.jpg"
+        }]
+}

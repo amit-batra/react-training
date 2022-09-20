@@ -7,10 +7,13 @@ import {ProductsList} from './components/ProductsList';
 import {ProductDetail} from './components/ProductDetail';
 import {Default} from './components/Default';
 
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path='/products' element={<ProductsList />} />
           <Route path='/cart' element={<Cart />} />
