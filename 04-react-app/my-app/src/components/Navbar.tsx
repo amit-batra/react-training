@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {Button} from './Button';
 
-class Navbar extends Component {
+export class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -32,5 +32,3 @@ class Navbar extends Component {
         );
     }
 }
-
-export default Navbar;

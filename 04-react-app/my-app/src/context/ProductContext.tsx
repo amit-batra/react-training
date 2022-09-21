@@ -33,6 +33,14 @@ export class ProductProvider extends Component<Props, StateType> {
         this.setProducts();
     }
 
+    handleDetails =  (id:string)  => {
+        let p = this.state.products.find(p => p.id === id);
+        if(p) {
+          return p;
+        }
+        return null;
+    }
+    
     render(): React.ReactNode {
         return (
             <ProductContext.Provider value={{...this.state}}>

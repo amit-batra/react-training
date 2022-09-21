@@ -4,10 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Cart} from './components/Cart';
 import {ProductsList} from './components/ProductsList';
-import {ProductDetail} from './components/ProductDetail';
-import {Default} from './components/Default';
-
-import Navbar from './components/Navbar';
+import { Default } from './components/Default';
+import { Navbar } from './components/Navbar';
+import { Details } from './components/Details';
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/products' element={<ProductsList />} />
           <Route path='/cart' element={<Cart />} />
-          <Route path='/details/:id' element={<ProductDetail />} />
+          <Route path='/details/:id' element={<Details />} />
           <Route path='/' element={<ProductsList />} />
           <Route path='*' element={<Default />} />
         </Routes>
